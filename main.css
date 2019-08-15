@@ -93,6 +93,13 @@ p {
 
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 @keyframes animatedBackground {
 	from { 
         background-position: 0 90%;
