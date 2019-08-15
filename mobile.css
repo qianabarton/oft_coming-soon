@@ -1,0 +1,45 @@
+
+  @media (max-width: 600px) {
+
+
+
+    .logo img {
+        width: 70%;
+    }
+
+
+    .content {
+        margin: 170px 30px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h1  {
+        font-size: 36px;
+    }
+
+    .email-field {
+        width: 70%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .submit {
+        width: 50%;    
+        margin: 20px auto;
+
+
+
+    }
+
+
+
+    .space-50 {
+        height: 30px;
+    }
+
+
+
+  }
