@@ -65,12 +65,11 @@ p {
 .email-field {
     height: 35px;
     width: 280px;
-    border-radius: 4px;
-    border: none;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
     background: none;
+    border: none;
     border-bottom: 1px solid #fff;
     padding: 5px 10px;
     color: #fff;
@@ -94,10 +93,19 @@ p {
 }
 
 input:focus,
-select:focus,
-textarea:focus,
-button:focus {
+textarea:focus
+ {
+    border-bottom: 1px solid #18b46e;
     outline: none;
+}
+
+button {
+    transition: background ease-in-out 0.3s;
+}
+
+button:focus {
+    background: #18b46e;
+
 }
 
 @keyframes animatedBackground {
