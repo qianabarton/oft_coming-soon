@@ -9,6 +9,7 @@
 
 
     .content {
+        overflow: hidden;
         margin: 170px 30px;
     }
 
