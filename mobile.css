@@ -3,6 +3,11 @@
 
 
 
+    body {
+        overflow: hidden;
+        position: fixed;
+    }
+
     .logo img {
         width: 70%;
     }
